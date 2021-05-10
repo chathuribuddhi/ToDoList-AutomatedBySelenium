@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\CHATHURI\AppData\Local\Temp\testng-eclipse--548542866\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC02_AddItem(Text)">TC02_AddItem(Text)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC02_AddItem(Test Text @)">TC02_AddItem(Test Text @)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC02_AddItem(Test Txt)">TC02_AddItem(Test Txt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC02_AddItem(Test text)">TC02_AddItem(Test text)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC02_AddItem(Test Text 123)">TC02_AddItem(Test Text 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC03_DeleteItem">TC03_DeleteItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC04_CompleteItem">TC04_CompleteItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC05_UndoCompletedItem">TC05_UndoCompletedItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC06_FilterCompletedItem">TC06_FilterCompletedItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC07_FilterActiveItem">TC07_FilterActiveItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AssignmentDifferent.AssignmentDifferent.ToDoPageTest" hash-for-method="TC08_FilterAllItem">TC08_FilterAllItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AssignmentDifferent.AssignmentDifferent.ToDoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_AddItem(Text)">
+                  </a> <!-- TC02_AddItem(Text) -->
+                  <span class="method-name">TC02_AddItem</span>
+                  <span class="parameters">(Text)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_AddItem(Test Text @)">
+                  </a> <!-- TC02_AddItem(Test Text @) -->
+                  <span class="method-name">TC02_AddItem</span>
+                  <span class="parameters">(Test Text @)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_AddItem(Test Txt)">
+                  </a> <!-- TC02_AddItem(Test Txt) -->
+                  <span class="method-name">TC02_AddItem</span>
+                  <span class="parameters">(Test Txt)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_AddItem(Test text)">
+                  </a> <!-- TC02_AddItem(Test text) -->
+                  <span class="method-name">TC02_AddItem</span>
+                  <span class="parameters">(Test text)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_AddItem(Test Text 123)">
+                  </a> <!-- TC02_AddItem(Test Text 123) -->
+                  <span class="method-name">TC02_AddItem</span>
+                  <span class="parameters">(Test Text 123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_DeleteItem">
+                  </a> <!-- TC03_DeleteItem -->
+                  <span class="method-name">TC03_DeleteItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_CompleteItem">
+                  </a> <!-- TC04_CompleteItem -->
+                  <span class="method-name">TC04_CompleteItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05_UndoCompletedItem">
+                  </a> <!-- TC05_UndoCompletedItem -->
+                  <span class="method-name">TC05_UndoCompletedItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06_FilterCompletedItem">
+                  </a> <!-- TC06_FilterCompletedItem -->
+                  <span class="method-name">TC06_FilterCompletedItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_FilterActiveItem">
+                  </a> <!-- TC07_FilterActiveItem -->
+                  <span class="method-name">TC07_FilterActiveItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_FilterAllItem">
+                  </a> <!-- TC08_FilterAllItem -->
+                  <span class="method-name">TC08_FilterAllItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\CHATHURI\AppData\Local\Temp\testng-eclipse--548542866\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AssignmentDifferent.AssignmentDifferent.ToDoPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC03_DeleteItem')
+data.setCell(0, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(0, 3, 1268);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC02_AddItem')
+data.setCell(1, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(1, 3, 1119);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC02_AddItem')
+data.setCell(2, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(2, 3, 1119);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC02_AddItem')
+data.setCell(3, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(3, 3, 1093);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC02_AddItem')
+data.setCell(4, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(4, 3, 1091);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC02_AddItem')
+data.setCell(5, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(5, 3, 1081);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC04_CompleteItem')
+data.setCell(6, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(6, 3, 1067);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC06_FilterCompletedItem')
+data.setCell(7, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(7, 3, 1066);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC05_UndoCompletedItem')
+data.setCell(8, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(8, 3, 1061);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC08_FilterAllItem')
+data.setCell(9, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(9, 3, 1057);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC07_FilterActiveItem')
+data.setCell(10, 2, 'AssignmentDifferent.AssignmentDifferent.ToDoPageTest')
+data.setCell(10, 3, 1056);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AssignmentDifferent.AssignmentDifferent.ToDoPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">TC02_AddItem(Test text)</span>
+                <span class="method-start">2826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC02_AddItem(Test Text 123)</span>
+                <span class="method-start">3947 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC02_AddItem(Test Text @)</span>
+                <span class="method-start">5029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC02_AddItem(Test Txt)</span>
+                <span class="method-start">6149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC02_AddItem(Text)</span>
+                <span class="method-start">7241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC04_CompleteItem</span>
+                <span class="method-start">8336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC06_FilterCompletedItem</span>
+                <span class="method-start">9404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC07_FilterActiveItem</span>
+                <span class="method-start">10471 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC08_FilterAllItem</span>
+                <span class="method-start">11528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC03_DeleteItem</span>
+                <span class="method-start">12586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC05_UndoCompletedItem</span>
+                <span class="method-start">13854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">terminate</span>
+                <span class="method-start">14916 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

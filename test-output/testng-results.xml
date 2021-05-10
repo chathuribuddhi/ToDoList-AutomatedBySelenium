@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15541" started-at="2021-05-11T00:55:08 IST" finished-at="2021-05-11T00:55:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15541" started-at="2021-05-11T00:55:08 IST" finished-at="2021-05-11T00:55:23 IST">
+      <class name="AssignmentDifferent.AssignmentDifferent.ToDoPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="Setup" is-config="true" duration-ms="2444" started-at="2021-05-11T00:55:08 IST" finished-at="2021-05-11T00:55:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC02_AddItem(java.lang.String)[pri:0, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC02_AddItem" duration-ms="1119" started-at="2021-05-11T00:55:10 IST" data-provider="dp" finished-at="2021-05-11T00:55:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_AddItem -->
+        <test-method status="PASS" signature="TC02_AddItem(java.lang.String)[pri:0, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC02_AddItem" duration-ms="1081" started-at="2021-05-11T00:55:12 IST" data-provider="dp" finished-at="2021-05-11T00:55:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Text 123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_AddItem -->
+        <test-method status="PASS" signature="TC02_AddItem(java.lang.String)[pri:0, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC02_AddItem" duration-ms="1119" started-at="2021-05-11T00:55:13 IST" data-provider="dp" finished-at="2021-05-11T00:55:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Text @]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_AddItem -->
+        <test-method status="PASS" signature="TC02_AddItem(java.lang.String)[pri:0, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC02_AddItem" duration-ms="1091" started-at="2021-05-11T00:55:14 IST" data-provider="dp" finished-at="2021-05-11T00:55:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_AddItem -->
+        <test-method status="PASS" signature="TC02_AddItem(java.lang.String)[pri:0, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC02_AddItem" duration-ms="1093" started-at="2021-05-11T00:55:15 IST" data-provider="dp" finished-at="2021-05-11T00:55:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_AddItem -->
+        <test-method status="PASS" signature="TC04_CompleteItem()[pri:1, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC04_CompleteItem" duration-ms="1067" started-at="2021-05-11T00:55:16 IST" finished-at="2021-05-11T00:55:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_CompleteItem -->
+        <test-method status="PASS" signature="TC06_FilterCompletedItem()[pri:2, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC06_FilterCompletedItem" duration-ms="1066" started-at="2021-05-11T00:55:17 IST" finished-at="2021-05-11T00:55:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_FilterCompletedItem -->
+        <test-method status="PASS" signature="TC07_FilterActiveItem()[pri:3, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC07_FilterActiveItem" duration-ms="1056" started-at="2021-05-11T00:55:18 IST" finished-at="2021-05-11T00:55:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_FilterActiveItem -->
+        <test-method status="PASS" signature="TC08_FilterAllItem()[pri:4, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC08_FilterAllItem" duration-ms="1057" started-at="2021-05-11T00:55:19 IST" finished-at="2021-05-11T00:55:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_FilterAllItem -->
+        <test-method status="PASS" signature="TC03_DeleteItem()[pri:5, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC03_DeleteItem" duration-ms="1268" started-at="2021-05-11T00:55:20 IST" finished-at="2021-05-11T00:55:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_DeleteItem -->
+        <test-method status="PASS" signature="TC05_UndoCompletedItem()[pri:6, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="TC05_UndoCompletedItem" duration-ms="1061" started-at="2021-05-11T00:55:21 IST" finished-at="2021-05-11T00:55:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_UndoCompletedItem -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:AssignmentDifferent.AssignmentDifferent.ToDoPageTest@2353b3e6]" name="terminate" is-config="true" duration-ms="622" started-at="2021-05-11T00:55:23 IST" finished-at="2021-05-11T00:55:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- AssignmentDifferent.AssignmentDifferent.ToDoPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

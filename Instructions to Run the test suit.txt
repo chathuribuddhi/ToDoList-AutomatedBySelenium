@@ -1,0 +1,8 @@
+1. Clone the project
+2. Open project from Eclips
+3. Download chromedriver suit for your chrome browser
+4. Change the path of chromebrowser (TodoPageTest.java --> Setup() )
+5. Change the path of the Test Data file (DP.java --> filename)
+6. Run ToDoPageTest.java as testNG test
+7. Refresh the project
+8. You can see test results in test-output --> emailable-report.html 
